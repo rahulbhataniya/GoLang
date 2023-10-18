@@ -4,6 +4,10 @@ import "fmt"
 
 func main() {
 	//var card string="Ace of cards"
-	card := "Ace of cards"
+	card := newCard()
 	fmt.Println(card)
+}
+
+func newCard() string {
+	return "value returned from function"
 }
